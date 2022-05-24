@@ -1,0 +1,317 @@
+body {
+  color: #19345e;
+  font-family: "Muli";
+}
+
+/* Font */
+@font-face {
+  font-family: "Muli";
+  src: url("../font/Muli.ttf");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../font/Muli-Bold.ttf");
+}
+@font-face {
+  font-family: "Muli-ExtraLight";
+  src: url("../font/Muli-ExtraLight.ttf");
+}
+/* End */
+
+/* Style Navbar */
+.container-navbar {
+  padding: 0.5rem 5rem;
+}
+.btn-altera-orange {
+  font-family: "Muli-ExtraLight";
+  border: 1px solid #f47522;
+  background-color: #f47522;
+  color: white;
+  margin: 0rem 3rem;
+  padding: 0.6rem 3rem;
+  text-decoration: none;
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+.btn-altera-orange:hover {
+  border: 1px solid #f47522;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f47522;
+}
+.navbar-brand > img {
+  height: 4rem;
+}
+.nav-item {
+  padding: 0 0.6rem;
+  font-family: "Muli-Bold";
+}
+.nav-link {
+  color: #19345e;
+}
+.nav-link.actived {
+  color: #f47522;
+}
+.nav-link:hover {
+  color: #f47522;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .navbar-collapse {
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-navbar {
+    padding: 0rem 2rem;
+  }
+  .navbar-brand > img {
+    height: 3rem;
+  }
+}
+/* End */
+
+/* Stlye Container */
+.container-about {
+  padding-top: 6rem;
+}
+@media only screen and (max-width: 768px) {
+  .container-about {
+    padding-top: 4rem;
+  }
+}
+/* End */
+
+/* Style Section */
+section {
+  padding: 5rem 10rem;
+  display: flex;
+  flex: 1;
+}
+.text-title-section {
+  font-family: "Muli-Bold";
+  font-size: 2.5rem;
+}
+.text-desk-section {
+  font-family: "Muli-ExtraLight";
+  font-size: 1.2rem;
+}
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 3rem 1rem;
+    flex-direction: column;
+  }
+  .text-title-section {
+    font-size: 2.5rem;
+  }
+  .text-desk-section {
+    font-size: 0.9rem;
+  }
+}
+/* End */
+
+/* Style Section Header */
+.header {
+  background-color: #19345e;
+  position: relative;
+  text-align: right;
+  font-family: "Muli-Bold";
+  font-size: 2.8rem;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  overflow: hidden;
+  color: white;
+}
+.header > p {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0rem;
+}
+.header-img {
+  position: absolute;
+  height: 20rem;
+}
+.header-left {
+  top: 0;
+  left: 0;
+}
+.header-right {
+  top: 0;
+  right: 0;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 2.5rem 0rem;
+  }
+  .header-img {
+    height: 7rem;
+  }
+  .header-left {
+    left: -9rem;
+  }
+  .header-right {
+    display: block;
+    right: -9rem;
+  }
+}
+/* End */
+
+/* Style Section Who */
+.who {
+  overflow: hidden;
+}
+.text-who {
+  flex: 1;
+  align-self: center;
+  padding-right: 5rem;
+}
+.pict-who {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  padding: 1rem;
+}
+.about-img-who {
+  width: 80%;
+  position: relative;
+  z-index: 2;
+}
+.batik-img-who {
+  position: absolute;
+  height: 20rem;
+  left: 0;
+  bottom: -8rem;
+}
+@media only screen and (max-width: 768px) {
+  .who {
+    flex-direction: column-reverse;
+  }
+  .text-who {
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  .about-img-who {
+    width: 100%;
+  }
+  .batik-img-who {
+    display: none;
+  }
+}
+/* End */
+
+/* Section Milestone */
+.milestone {
+  background-color: #f4f7fc;
+}
+.about-img-milestone {
+  width: 100%;
+}
+.pict-milestone {
+  flex: 1;
+  padding: 1.5rem;
+  padding-top: 0rem;
+}
+.text-milestone {
+  flex: 1;
+}
+/* End */
+
+/* Section Why */
+.text-why {
+  flex: 1;
+  align-self: center;
+}
+.pict-why {
+  flex: 1;
+  text-align: center;
+}
+.about-img-why {
+  width: 70%;
+}
+@media only screen and (max-width: 768px) {
+  .why {
+    flex-direction: column-reverse;
+  }
+  .pict-why {
+    padding: 1rem;
+  }
+  .about-img-why {
+    width: 100%;
+  }
+}
+/* End */
+
+/* Section Team */
+.text-team {
+  flex: 1;
+  align-self: center;
+}
+.pict-team {
+  text-align: center;
+  flex: 1;
+}
+.about-img-team {
+  width: 70%;
+}
+@media only screen and (max-width: 768px) {
+  .pict-team {
+    padding-bottom: 1rem;
+  }
+  .about-img-team {
+    width: 100%;
+  }
+}
+/* End */
+
+/* Section Started */
+.started {
+  justify-content: center;
+  text-align: center;
+}
+/* End */
+
+/* Section Footer */
+.footer {
+  display: flex;
+  background-color: #19345e;
+  align-items: center;
+  color: white;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.footer-items {
+  flex: 1;
+  padding: 2rem;
+}
+.sosmed-footer-items {
+  display: flex;
+  justify-content: center;
+}
+.text-sosmed {
+  text-align: left;
+}
+.text-sosmed > img {
+  height: 1.5rem;
+  padding-right: 0.9rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-items {
+    padding: 1rem;
+  }
+  .copyright-footer-items {
+    margin-top: 2rem;
+    align-self: center;
+  }
+}
+/* End */
