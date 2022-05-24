@@ -1,0 +1,84 @@
+/* body {
+  min-height: 2000px;
+} */
+
+.jumbotron {
+  background-color: #EDF6FF;
+  width: 100%;
+  height: 100%;
+}
+
+.img-jumbotron {
+  width: 420px;
+}
+
+.col span {
+  color: #F47522;
+}
+
+.img-clr {
+  background-color: #F47522;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.img-about {
+  background-image: linear-gradient(rgba(0, 0, 116, 0.459), rgba(0, 0, 116, 0.459)), url(/assests/bg-people@2x.png);
+  background-size: cover;
+  width: 98.7vw;
+  height: 500px;
+}
+
+.about-judul::before {
+  content: "-";
+  color: #F47522;
+}
+
+.about-judul::after {
+  content: "-";
+  color: #F47522;
+}
+
+.team-background {
+  background-image: url(/assests/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.box{
+	background-color: green;
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  }
+  
+  .box-outer-orange{
+    width: 250px;
+    height: 300px;
+    position : absolute;
+    border: #F47522 10px solid;
+    background-color : none;
+    top : 10px;
+    right : 10px;
+  }
+
+  .box-outer-blue{
+    width: 250px;
+    height: 300px;
+    position : absolute;
+    border: #19345E 10px solid;
+    background-color : none;
+    top : 10px;
+    right : 10px;
+  }
+@media(max-width: 992px) {
+  .btn-jumbotron button {
+    width: 100%;
+  }
+}
