@@ -1,0 +1,61 @@
+body {
+  font-family: "Muli";
+  color: #19345f;
+}
+.container {
+  width: 100%;
+}
+a {
+  color: #19345f;
+  font-family: "Muli";
+}
+#navbarNav:hover {
+  color: #19345f;
+}
+.btn-alterra-orange {
+  color: #19345f;
+  border-radius: 1px solid #f47522;
+  border-color: #f47522;
+  text-decoration: none;
+  font-family: "Muli-ExtraLight";
+}
+
+/* Font */
+@font-face {
+  font-family: "Muli";
+  src: url("../font/Muli.ttf");
+}
+@font-face {
+  font-family: "Muli-Bold";
+  src: url("../font/Muli-Bold.ttf");
+}
+@font-face {
+  font-family: "Muli-ExtraLight";
+  src: url("../font/Muli-ExtraLight.ttf");
+}
+h3 {
+  border-color: blue;
+  padding: 5rem;
+  color: #19345f;
+  font-family: "Muli-Bold";
+}
+.col-6 {
+  text-align: left;
+}
+.col-4 {
+  text-align: center;
+}
+
+button {
+  margin-bottom: 5rem;
+  border: 0px;
+}
+
+.btn {
+  text-decoration: none;
+  font-family: "Muli-ExtraLight";
+  border: 0px solid #f47522;
+  border-radius: 75px;
+  color: #fff;
+  background-color: #f47522;
+}
