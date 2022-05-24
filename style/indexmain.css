@@ -39,6 +39,26 @@
   color: #F47522;
 }
 
+.project-strip::before {
+  content: "-";
+  color: #F47522;
+}
+
+.project-strip::after {
+  content: "-";
+  color: #F47522;
+}
+
+.team-strip::before {
+  content: "-";
+  color: #F47522;
+}
+
+.team-strip::after {
+  content: "-";
+  color: #F47522;
+}
+
 .team-background {
   background-image: url(/assests/ornament_batik.png);
   background-repeat: no-repeat;
@@ -81,4 +101,8 @@
   .btn-jumbotron button {
     width: 100%;
   }
+}
+
+.footer {
+  background-color: #19345E;
 }
