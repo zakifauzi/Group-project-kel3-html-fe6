@@ -45,7 +45,7 @@ a:hover {
   background-color: rgba(0, 0, 0, 0);
   color: #f47522;
 }
-.navbar-brand > img {
+.navbar-brand > a > img {
   height: 4rem;
 }
 .nav-item {
@@ -67,15 +67,21 @@ a:hover {
     margin-bottom: 1rem;
     width: 100%;
   }
+  .btn-altera-orange {
+    margin: 0rem;
+  }
+  .nav-item {
+    padding: 0rem;
+  }
   .navbar-collapse {
     padding-bottom: 2rem;
     display: flex;
     flex-direction: column;
   }
   .container-navbar {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
-  .navbar-brand > img {
+  .navbar-brand > a > img {
     height: 3rem;
   }
 }
