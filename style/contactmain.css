@@ -19,6 +19,9 @@ a {
   text-decoration: none;
   font-family: "Muli-ExtraLight";
 }
+.navbar-brand > img {
+  height: 4rem;
+}
 
 /* Font */
 @font-face {

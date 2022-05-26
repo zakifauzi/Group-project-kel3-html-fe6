@@ -19,9 +19,8 @@ body {
 /* End */
 .container-navbar {
   width: 100%;
-  height: 3rem;
 }
-.navbar-brand > img {
+.navbar-brand > a > img {
   height: 4rem;
 }
 .nav-item {
@@ -31,19 +30,20 @@ body {
   color: #19345f;
   font-family: "Muli-Bold";
 }
+.nav-link.actived {
+  color: #f47522;
+}
 .nav-link:hover {
   color: #f47522;
 }
 .btn-altera-orange {
-  color: #19345f;
+  color: white;
   background-color: #f47522;
   border: 1px solid #f47522;
   border-radius: 75px;
   text-decoration: none;
   font-family: "Muli-ExtraLight";
-  width: 30px;
-
-  margin: 0rem 3rem;
+  margin-left: 3rem;
   padding: 0.6rem 3rem;
   transition: 0.5s;
 }
