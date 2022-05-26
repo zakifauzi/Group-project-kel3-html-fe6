@@ -4,30 +4,39 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Blog</title>
-    <link rel="stylesheet" href="/styles/blog.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="/style/blogmain.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg shadow-sm bg-light">
-      <div class="container container-navbar">
+    <nav class="navbar fixed-top navbar-expand-lg shadow bg-white">
+      <div class="container-navbar container">
         <div class="navbar-brand">
           <a href="Index.html">
-            <img src="/assests/logo-ALTA@2x.png" alt="" />
+            <img src="assests/logo-ALTA@2x.png" alt="logo" />
           </a>
         </div>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarText"
-          aria-controls="navbarText"
+          data-bs-target="#navbar-list"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -35,92 +44,87 @@
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
-          id="navbarText"
+          id="navbar-list"
         >
-          <ul class="navbar-nav ms-auto mb-2">
+          <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="Index.html">Home</a>
+              <a href="Index.html" class="nav-link">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="AboutUs.html">About</a>
+              <a href="AboutUs.html" class="nav-link">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="AboutTeam.html">Team</a>
+              <a href="AboutTeam.html" class="nav-link">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link actived" href="ListBlog.html">Blog</a>
+              <a href="ListBlog.html" class="nav-link actived">Blog</a>
             </li>
           </ul>
-          <a class="btn-altera-orange" href="Contact.html">Contact</a>
+          <a href="Contact.html" class="btn-altera-orange">Contact</a>
         </div>
       </div>
     </nav>
     <!-- Navbar End -->
 
     <!-- content -->
+    <div>
+      <h1 class="text-center my-5">- Blog -</h1>
+      <img class="img-fluid" src="/assests/img_blog.jpg" alt="" />
 
-    <h1 class="text-center m-5">- Blog -</h1>
-    <img class="img-fluid" src="/assests/img_blog.jpg" alt="" />
+      <div class="row align-items-center mx-5 mt-2 mb-5">
+        <div class="col">
+          <h1 class="text-start fw-bold">
+            HOW TO BE A SUCCESSFUL <br />
+            FREELANCER
+          </h1>
+          <br />
+          <h6 class="text-start fw-semibold">Larry Stark - 7 januari 2020</h6>
+          <br />
 
-    <div class="row align-items-center mx-5 mt-2 mb-5">
-      <div class="col">
-        <h1 class="text-start fw-bold">
-          HOW TO BE A SUCCESSFUL <br />
-          FREELANCER
-        </h1>
-        <br />
-        <h6 class="text-start fw-semibold">Larry Stark - 7 januari 2020</h6>
-        <br />
-
-        <p class="text-start">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          cupiditate a, ipsa ratione officia quis obcaecati aliquam maiores
-          veritatis ab consectetur porro fugiat dolores magnam excepturi quos
-          beatae sint repellat?
-        </p>
-        <p class="text-start">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-          possimus doloremque error ducimus quos eum explicabo harum hic vitae
-          ipsam dolor molestiae blanditiis, architecto commodi suscipit corporis
-          perferendis. Corporis, cupiditate?
-        </p>
-        <p class="text-start">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-          possimus doloremque error ducimus quos eum explicabo harum hic vitae
-          ipsam dolor molestiae blanditiis, architecto commodi suscipit corporis
-          perferendis. Corporis, cupiditate?
-        </p>
-        <p class="text-start">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
-          possimus doloremque error ducimus quos eum explicabo harum hic vitae
-          ipsam dolor molestiae blanditiis, architecto commodi suscipit corporis
-          perferendis. Corporis, cupiditate?
-        </p>
+          <p class="text-start">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            cupiditate a, ipsa ratione officia quis obcaecati aliquam maiores
+            veritatis ab consectetur porro fugiat dolores magnam excepturi quos
+            beatae sint repellat?
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            possimus doloremque error ducimus quos eum explicabo harum hic vitae
+            ipsam dolor molestiae blanditiis, architecto commodi suscipit
+            corporis perferendis. Corporis, cupiditate?
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            possimus doloremque error ducimus quos eum explicabo harum hic vitae
+            ipsam dolor molestiae blanditiis, architecto commodi suscipit
+            corporis perferendis. Corporis, cupiditate?
+          </p>
+          <p class="text-start">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate
+            possimus doloremque error ducimus quos eum explicabo harum hic vitae
+            ipsam dolor molestiae blanditiis, architecto commodi suscipit
+            corporis perferendis. Corporis, cupiditate?
+          </p>
+        </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <footer>
-      <div class="footer" style="background-color: #19345f">
-        <div class="row" style="color: #fff">
-          <div class="col-4 text-center">
-            <img
-              style="width: 50%"
-              src="./assests/logo-ALTA-v2@2x.png"
-              alt=""
-            />
-          </div>
-          <div class="col-4">
-            Social Media
-            <div class="sosmed">
-              <span><img src="./assests/ic_fb.png" alt="" /></span>
-              <span><img src="./assests/ic_twitter.png" alt="" /></span>
-              <span><img src="./assests/ic_ig.png" alt="" /></span>
-              <span><img src="./assests/ic_linkedin.png" alt="" /></span>
-            </div>
-          </div>
-          <div class="col-4">Copyright &copy; 2019 Alterra</div>
+    <footer class="footer">
+      <div class="footer-items img-footer-items">
+        <img src="assests/logo-ALTA-v2@2x.png" alt="" height="60" />
+      </div>
+      <div class="footer-items sosmed-footer-items">
+        <div class="text-sosmed">
+          <p>Social Media</p>
+          <img src="assests/ic_fb.png" alt="" />
+          <img src="assests/ic_twitter.png" alt="" />
+          <img src="assests/ic_ig.png" alt="" />
+          <img src="assests/ic_linkedin.png" alt="" />
         </div>
+      </div>
+      <div class="footer-items copyright-footer-items">
+        Copyright © 2019 Alterra
       </div>
     </footer>
   </body>

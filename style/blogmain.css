@@ -1,7 +1,12 @@
 body {
   font-family: "Muli";
   color: #19345f;
-  width: 100%;
+  padding-top: 6rem;
+}
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 4rem;
+  }
 }
 /* Font */
 @font-face {
@@ -17,18 +22,36 @@ body {
   src: url("../font/Muli-ExtraLight.ttf");
 }
 /* End */
+
+/* Style Navbar */
 .container-navbar {
-  width: 100%;
+  padding: 0.5rem 5rem;
+}
+.btn-altera-orange {
+  font-family: "Muli-ExtraLight";
+  border: 1px solid #f47522;
+  background-color: #f47522;
+  color: white;
+  margin-left: 3rem;
+  padding: 0.6rem 3rem;
+  text-decoration: none;
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+.btn-altera-orange:hover {
+  border: 1px solid #f47522;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f47522;
 }
 .navbar-brand > a > img {
   height: 4rem;
 }
 .nav-item {
-  font-family: "Muli";
+  padding: 0 0.6rem;
+  font-family: "Muli-Bold";
 }
 .nav-link {
-  color: #19345f;
-  font-family: "Muli-Bold";
+  color: #19345e;
 }
 .nav-link.actived {
   color: #f47522;
@@ -36,41 +59,72 @@ body {
 .nav-link:hover {
   color: #f47522;
 }
-.btn-altera-orange {
-  color: white;
-  background-color: #f47522;
-  border: 1px solid #f47522;
-  border-radius: 75px;
-  text-decoration: none;
-  font-family: "Muli-ExtraLight";
-  margin-left: 3rem;
-  padding: 0.6rem 3rem;
-  transition: 0.5s;
-}
-.btn-altera-orange:hover {
-  border: 1px solid #f47522;
-  background-color: rgba(0, 0, 0, 0);
-  color: #f47522;
-  text-decoration: none;
-}
+
 @media only screen and (max-width: 768px) {
   .navbar-nav {
     margin-bottom: 1rem;
     width: 100%;
   }
+  .btn-altera-orange {
+    margin: 0rem;
+  }
+  .nav-item {
+    padding: 0rem;
+  }
   .navbar-collapse {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
   }
   .container-navbar {
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
   }
-  .navbar-brand > img {
+  .navbar-brand > a > img {
     height: 3rem;
   }
 }
+/* End */
+
 .col {
   color: #19345f;
   font-family: "Muli";
 }
+
+/* Section Footer */
+.footer {
+  display: flex;
+  background-color: #19345e;
+  align-items: center;
+  color: white;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.footer-items {
+  flex: 1;
+  padding: 2rem;
+}
+.sosmed-footer-items {
+  display: flex;
+  justify-content: center;
+}
+.text-sosmed {
+  text-align: left;
+}
+.text-sosmed > img {
+  height: 1.5rem;
+  padding-right: 0.9rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-items {
+    padding: 1rem;
+  }
+  .copyright-footer-items {
+    margin-top: 2rem;
+    align-self: center;
+  }
+}
+/* End */

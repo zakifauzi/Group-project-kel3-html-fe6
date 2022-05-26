@@ -74,7 +74,7 @@ a:hover {
     padding: 0rem;
   }
   .navbar-collapse {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
   }

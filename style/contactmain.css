@@ -1,26 +1,19 @@
 body {
   font-family: "Muli";
   color: #19345f;
+  padding-top: 6rem;
 }
+@media only screen and (max-width: 768px) {
+  body {
+    padding-top: 2rem;
+  }
+}
+
 .container {
   width: 100%;
 }
 a {
   color: #19345f;
-  font-family: "Muli";
-}
-#navbarNav:hover {
-  color: #19345f;
-}
-.btn-alterra-orange {
-  color: #19345f;
-  border-radius: 1px solid #f47522;
-  border-color: #f47522;
-  text-decoration: none;
-  font-family: "Muli-ExtraLight";
-}
-.navbar-brand > img {
-  height: 4rem;
 }
 
 /* Font */
@@ -49,7 +42,7 @@ h3 {
   text-align: center;
 }
 
-button {
+.button-send {
   margin-bottom: 5rem;
   border: 0px;
 }
@@ -62,3 +55,104 @@ button {
   color: #fff;
   background-color: #f47522;
 }
+
+/* Style Navbar */
+.container-navbar {
+  padding: 0.5rem 5rem;
+}
+.btn-altera-orange {
+  font-family: "Muli-ExtraLight";
+  border: 1px solid #f47522;
+  background-color: #f47522;
+  color: white;
+  margin-left: 3rem;
+  padding: 0.6rem 3rem;
+  text-decoration: none;
+  border-radius: 5rem;
+  transition: 0.5s;
+}
+.btn-altera-orange:hover {
+  border: 1px solid #f47522;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f47522;
+}
+.navbar-brand > a > img {
+  height: 4rem;
+}
+.nav-item {
+  padding: 0 0.6rem;
+  font-family: "Muli-Bold";
+}
+.nav-link {
+  color: #19345e;
+}
+.nav-link.actived {
+  color: #f47522;
+}
+.nav-link:hover {
+  color: #f47522;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-nav {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  .btn-altera-orange {
+    margin: 0rem;
+  }
+  .nav-item {
+    padding: 0rem;
+  }
+  .navbar-collapse {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container-navbar {
+    padding: 0rem 1rem;
+  }
+  .navbar-brand > a > img {
+    height: 3rem;
+  }
+}
+/* End */
+
+/* Section Footer */
+.footer {
+  display: flex;
+  background-color: #19345e;
+  align-items: center;
+  color: white;
+  padding: 2rem 0rem;
+  text-align: center;
+}
+.footer-items {
+  flex: 1;
+  padding: 2rem;
+}
+.sosmed-footer-items {
+  display: flex;
+  justify-content: center;
+}
+.text-sosmed {
+  text-align: left;
+}
+.text-sosmed > img {
+  height: 1.5rem;
+  padding-right: 0.9rem;
+}
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-items {
+    padding: 1rem;
+  }
+  .copyright-footer-items {
+    margin-top: 2rem;
+    align-self: center;
+  }
+}
+/* End */
