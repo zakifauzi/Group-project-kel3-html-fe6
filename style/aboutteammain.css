@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "muli-bold";
+  src: url(/font/Muli-Bold.ttf);
+}
+
+@font-face {
+  font-family: "muli";
+  src: url(/font/Muli.ttf);
+}
+
+@font-face {
+  font-family: "poopins-bold";
+  src: url(/font/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "poopins-regular";
+  src: url(/font/Poppins-Regular.ttf);
+}
+
+body{
+  font-family: muli-bold !important;
+  color: #19345E !important;
+}
+
+.bar a {
+  color: #19345E;
+}
+
+.bar a:hover {
+  color: #F47522;
+}
+
+.img-batik {
+  background-image: url(/assests/ornament_batik.png);
+  background-repeat: no-repeat;
+  background-size: 150px;
+}
+
+.strip h1::before {
+  content: "-";
+  color: #F47522;
+}
+
+.strip h1::after {
+  content: "-";
+  color: #F47522;
+}
+
+.box{
+	background-color: green;
+    position: relative;
+    width: 250px;
+    height: 300px;
+}
+.box img{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  }
+  
+  .box-outer-orange{
+    width: 250px;
+    height: 300px;
+    position : absolute;
+    border: #F47522 10px solid;
+    background-color : none;
+    top : 10px;
+    right : 10px;
+  }
+
+  .box-outer-blue{
+    width: 250px;
+    height: 300px;
+    position : absolute;
+    border: #19345E 10px solid;
+    background-color : none;
+    top : 10px;
+    right : 10px;
+  }
+
+.title-font {
+  font-family: "poopins-regular" !important;
+}
+.title-font1 {
+  font-family: "poopins-bold" !important;
+}
+.wrapper-icon img {
+  width: 50%;
+  }
+  
+.calender li img {
+  width: 25px;
+  padding: 5px;
+  }
+
+hr.new3 {
+    border-top: 2px dotted;
+  }
+
+.img-fb {
+  width: 25px;
+  padding-right: 10px;
+}
+.footer {
+  background-color: #19345E;
+  padding: 2rem 0px;
+}
+

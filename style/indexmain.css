@@ -1,18 +1,86 @@
-/* body {
-  min-height: 2000px;
-} */
+@font-face {
+  font-family: "muli-bold";
+  src: url(/font/Muli-Bold.ttf);
+}
+
+@font-face {
+  font-family: "muli-regular";
+  src: url(/font/muli.regular.ttf);
+}
+
+@font-face {
+  font-family: "muli-black";
+  src: url(/font/Muli-Black.ttf);
+}
+
+@font-face {
+  font-family: "roboto-bold";
+  src: url(/font/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: "poopins-regular";
+  src: url(/font/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: "muli-bold", roboto-bold !important;
+  color: #19345E !important;
+}
+.bar a {
+  color: #19345E;
+}
+
+.bar a:hover {
+  color: #F47522;
+}
 
 .jumbotron {
   background-color: #EDF6FF;
   width: 100%;
   height: 100%;
 }
-
+.title-jumbotron {
+  font-family: "roboto-bold" !important;
+  font-size: 3rem;
+}
+.title-jumbotron1 {
+  font-family: "muli-black" !important;
+  font-size: 1.5rem;
+}
 .img-jumbotron {
   width: 420px;
 }
 
-.col span {
+.title-team {
+  font-family: "roboto-bold" !important;
+}
+.title-div {
+  font-family: "poopins-regular" !important;
+}
+
+.title-experience {
+  font-family: "muli-regular" !important;
+}
+
+.title-blog {
+  font-family: "roboto-bold" !important;
+}
+.card-text {
+  font-family: "poopins-regular" !important;
+}
+.card-p {
+  font-family: "poopins-regular" !important;
+  color: #707070 !important;
+}
+.card-read {
+  color: #19345E;
+}
+.card-read:hover {
+  color: #F47522;
+}
+
+.spn-clr {
   color: #F47522;
 }
 
@@ -22,8 +90,13 @@
   padding: 7px;
 }
 
+.img-fb {
+  width: 25px;
+  padding-right: 10px;
+}
+
 .img-about {
-  background-image: linear-gradient(rgba(0, 0, 116, 0.459), rgba(0, 0, 116, 0.459)), url(/assests/bg-people@2x.png);
+  background-image: linear-gradient(rgba(25, 25, 148, 0.425), rgba(25, 25, 143, 0.651)), url(/assests/bg-people@2x.png);
   background-size: cover;
   width: 98.7vw;
   height: 500px;
@@ -59,6 +132,11 @@
   color: #F47522;
 }
 
+.btn-jumbotron1 {
+  background-color: #F47522 !important;
+  border: #F47522 !important;
+}
+
 .team-background {
   background-image: url(/assests/ornament_batik.png);
   background-repeat: no-repeat;
@@ -66,10 +144,10 @@
 }
 
 .box{
-	background-color: green;
-    position: relative;
-    width: 250px;
-    height: 300px;
+  background-color: green;
+  position: relative;
+  width: 250px;
+  height: 300px;
 }
 .box img{
   height: 100%;
@@ -77,16 +155,16 @@
   position: absolute;
   object-fit: cover;
   }
-  
-  .box-outer-orange{
-    width: 250px;
-    height: 300px;
-    position : absolute;
-    border: #F47522 10px solid;
-    background-color : none;
-    top : 10px;
-    right : 10px;
-  }
+
+.box-outer-orange{
+  width: 250px;
+  height: 300px;
+  position : absolute;
+  border: #F47522 10px solid;
+  background-color : none;
+  top : 10px;
+  right : 10px;
+}
 
   .box-outer-blue{
     width: 250px;
@@ -105,4 +183,13 @@
 
 .footer {
   background-color: #19345E;
+  padding: 2rem 0px;
+}
+
+.wrapper-icon img {
+  width: 50%;
+}
+
+.projects {
+  padding-bottom: 5rem;
 }
